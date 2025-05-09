@@ -1,1 +1,13 @@
-/* You can add global styles to this file, and also import other style files */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.custom-markdown pre {
+    @apply rounded-lg;
+    padding: 0.5rem;
+    background-color: #282c34; 
+    overflow-x: auto;
+    display: block;
+    min-width: 100%;
+}

@@ -1,0 +1,27 @@
+{
+    "tailwindCSS.experimental.configFile": "src/styles.scss",
+    "tailwindCSS.classAttributes": [
+        "class",
+        "className",
+        "ngClass",
+        "class:list",
+        ""
+    ],
+    "editor.quickSuggestions": {
+        "strings": "on"
+    },
+    "tailwindCSS.files.exclude": [
+        "**/.git/**",
+        "**/node_modules/**",
+        "**/.hg/**",
+        "**/.svn/**",
+        ""
+    ],
+    "tailwindCSS.emmetCompletions": true,
+    "tailwindCSS.colorDecorators": true,
+    "tailwindCSS.includeLanguages": {
+        "typescript": "javascript",
+        "html": "html",
+        "scss": "css"
+    }
+}
