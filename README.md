@@ -1,59 +1,81 @@
-# GeminiChatApp
+# Achalugo AI 🤖✨
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.7.
+Achalugo AI is an intelligent chatbot interface built with **Angular** and powered by **Gemini (Google GenAI)**. It leverages modern front-end technologies and AI integration to provide interactive conversations in a clean and responsive UI.
 
-## Development server
+![Tech Stack](https://img.shields.io/badge/-Angular-red?style=for-the-badge\&logo=angular) ![Google GenAI](https://img.shields.io/badge/-Gemini%20AI-blue?style=for-the-badge\&logo=google) ![TailwindCSS](https://img.shields.io/badge/-TailwindCSS-38bdf8?style=for-the-badge\&logo=tailwind-css) ![Ngx Markdown](https://img.shields.io/badge/-ngx--markdown-007acc?style=for-the-badge) ![Ng Icons](https://img.shields.io/badge/-ng--icons-6c63ff?style=for-the-badge) ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg?style=for-the-badge)
 
-To start a local development server, run:
+---
 
-```bash
-ng serve
-```
+## ✨ Features
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+* 🌐 Built with Angular 19
+* 🔮 Powered by Google GenAI (Gemini)
+* 🧠 Chat-based interaction system
+* 🧾 Supports Markdown formatting using `ngx-markdown`
+* 🎨 Styled with TailwindCSS
+* 📦 Beautiful UI icons from `ng-icons`
 
-## Code scaffolding
+---
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+## 🚀 Getting Started
 
-```bash
-ng generate component component-name
-```
+Follow these steps to clone, install, and run Achalugo AI locally:
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
-
-```bash
-ng generate --help
-```
-
-## Building
-
-To build the project run:
+### 1. Clone the Repository
 
 ```bash
-ng build
+git clone https://github.com/ngcameroon/achalugo-ai.git
+cd achalugo-ai
 ```
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+### 2. Install Dependencies
 
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
+Make sure you have `Node.js` and `npm` installed. Then run:
 
 ```bash
-ng test
+npm install
 ```
 
-## Running end-to-end tests
+### 3. Get Your Google GenAI API Key
 
-For end-to-end (e2e) testing, run:
+> 🔑 You can get a Gemini API key by visiting [Google AI Studio](https://ai.google.dev/gemini-api/docs) and following the setup instructions.
+>
+> 🔐 **Important**: Never expose your API key in production. For secure storage, consider using environment variables.
+
+### 4. Run the App
 
 ```bash
-ng e2e
+npm start
 ```
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+The app will be available at `http://localhost:4200`.
 
-## Additional Resources
+---
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+## 🛠 Tech Stack
+
+* **Angular** – Framework for building the UI
+* **@google/genai** – Gemini model integration
+* **ngx-markdown** – For rendering Markdown responses
+* **TailwindCSS** – Utility-first CSS for styling
+* **ng-icons** – Easy integration of icon sets
+
+---
+
+## 🧑‍💻 Hosting Your Own Version
+
+Want to make it your own? Here's how:
+
+1. [Create a new GitHub repository](https://github.com/new)
+2. Clone this project or use it as a template
+3. Push it to your own GitHub repo
+4. Add your Google GenAI API key as shown above
+5. Deploy using services like **Vercel**, **Firebase Hosting**, **Netlify**, or your preferred platform
+
+> 📦 This approach gives you full control over the project, branding, and customization.
+
+---
+
+## 📄 License
+
+This project is open source and available under the [MIT License](LICENSE).
